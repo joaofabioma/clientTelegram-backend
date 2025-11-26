@@ -1,3 +1,5 @@
+CREATE DATABASE client_telegram;
+
 DROP TABLE IF EXISTS elegram_sessions;
 CREATE TABLE IF NOT EXISTS telegram_sessions (
     id BIGSERIAL PRIMARY KEY,
